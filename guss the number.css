@@ -38,7 +38,7 @@ html{
     color: #fff;
 }
 
-.question-mark-container{
+.secret-number-container{
     background-color: #fff;
     width: 8rem;
     height: 8rem;
@@ -50,7 +50,7 @@ html{
     left: 43%;
 }
 
-.question-mark{
+.secret-number{
     font-size: 4rem;
     font-family: 1000;
     color: rgb(88, 88, 87);
@@ -102,7 +102,7 @@ html{
     gap: 2.5rem;
 }
 
-.start-guessing{
+.message{
     font-size: 3rem;
     color: #fff;
     font-weight: 600;
