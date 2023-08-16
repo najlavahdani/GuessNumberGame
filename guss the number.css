@@ -1,0 +1,127 @@
+*{
+    text-transform: capitalize;
+}
+
+html{
+    background-color: rgb(88, 88, 87);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.again-btn{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    cursor: pointer;
+    color: rgb(88, 88, 87);
+}
+
+.period{
+    color: #fff;
+}
+
+.game-title-container{
+    margin: 1rem 1rem 1rem 1rem;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.5rem solid #fff;
+}
+
+.game-title{
+    font-size: 4rem;
+    font-weight: 800;
+    color: #fff;
+}
+
+.question-mark-container{
+    background-color: #fff;
+    width: 8rem;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 35%;
+    left: 43%;
+}
+
+.question-mark{
+    font-size: 4rem;
+    font-family: 1000;
+    color: rgb(88, 88, 87);
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    height: 20rem;
+    width: 30rem;
+}
+
+.number{
+    border: solid 0.5rem #fff;
+    background-color: rgb(88, 88, 87);
+    width: 15rem;
+    height: 5rem;
+    font-size: 4rem;
+    text-align: center;
+    color: #fff;
+}
+
+.submit-btn{
+    width: 12rem;
+    height: 4rem;
+    font-size: 2rem;
+    font-weight: 800;
+    cursor: pointer;
+    color: rgb(88, 88, 87);
+    box-shadow: 0.5rem 0.5rem 0.5rem 0.01rem #000;
+}
+
+.submit-btn:hover{
+    background-color: #dcd9d9;
+}
+
+.results{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.start-guessing{
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.scores-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.score{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.highscore{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+}
